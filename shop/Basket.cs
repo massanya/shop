@@ -12,7 +12,7 @@ namespace shop
 		public void Order(List<Goods> goods)
 		{
 			
-			for (int i = 0; i < goods.Length; i++)
+			for (int i = 0; i < goods.Count; i++)
 			{
 				OrderPrice += goods[i].Price;
 			}
